@@ -15,12 +15,19 @@ I'm actively seeking **co-op, internship, and entry-level roles** in security en
 
 ## Toolkit
 
-**SIEM & Detection** — Splunk · Wazuh · Snort · Sysmon
-**Offensive** — Metasploit · Burp Suite · BloodHound · Mimikatz · Hashcat
-**Network & Recon** — Nmap · Wireshark · Nessus
-**Forensics** — SIFT Workstation · log analysis
-**Languages & Dev** — Python · Java · JavaFX · REST APIs · Git
-**Platforms** — Kali Linux · Active Directory · Group Policy · VMware · Windows / Linux · ServiceNow
+* **SIEM & Detection:** Splunk · Wazuh · Snort · Sysmon
+
+* **Offensive:** Metasploit · Burp Suite · BloodHound · Mimikatz · Hashcat
+
+* **Network & Recon:** Nmap · Wireshark · Nessus
+
+* **Forensics:** SIFT Workstation · log analysis
+
+* **Languages & Dev:** Python · Java · JavaFX · REST APIs · Git
+
+* **Platforms:** Kali Linux · Active Directory · Group Policy · VMware · Windows / Linux · ServiceNow
+
+
 
 ## Education & credentials
 
