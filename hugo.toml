@@ -1,0 +1,120 @@
+baseURL = "https://SahibGill386.github.io/"
+languageCode = "en-us"
+title = "Sahib Gill — Cybersecurity"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+enableEmoji = true
+pygmentsUseClasses = true
+
+mainSections = ["projects"]
+
+[pagination]
+  pagerSize = 8
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[menu]
+  [[menu.main]]
+    identifier = "projects"
+    name = "Projects"
+    url = "/projects/"
+    weight = 10
+  [[menu.main]]
+    identifier = "about"
+    name = "About"
+    url = "/about/"
+    weight = 20
+  [[menu.main]]
+    identifier = "tags"
+    name = "Tags"
+    url = "/tags/"
+    weight = 30
+  [[menu.main]]
+    identifier = "search"
+    name = "Search"
+    url = "/search/"
+    weight = 40
+
+[params]
+  env = "production"
+  description = "Sahib Gill — Cybersecurity student and aspiring security engineer. Detection engineering, offensive security, and network defense."
+  author = "Sahib Gill"
+  keywords = ["cybersecurity", "security engineer", "SOC analyst", "detection engineering", "Splunk", "Active Directory", "Boston"]
+  DateFormat = "January 2006"
+  defaultTheme = "dark"
+  disableThemeToggle = false
+
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowCodeCopyButtons = true
+  ShowWordCount = false
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowToc = true
+  TocOpen = false
+  hideMeta = false
+  hideSummary = false
+  comments = false
+
+  [params.profileMode]
+    enabled = true
+    title = "Sahib Gill"
+    subtitle = "Cybersecurity student & aspiring **security engineer**.<br>I build the lab, run the attack, and write the detection that catches it."
+    imageUrl = "avatar.svg"
+    imageTitle = "Sahib Gill"
+    imageWidth = 130
+    imageHeight = 130
+    [[params.profileMode.buttons]]
+      name = "Projects"
+      url = "projects"
+    [[params.profileMode.buttons]]
+      name = "Résumé"
+      url = "resume.pdf"
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "about"
+
+  [[params.socialIcons]]
+    name = "github"
+    title = "GitHub — SahibGill386"
+    url = "https://github.com/SahibGill386"
+  [[params.socialIcons]]
+    name = "linkedin"
+    title = "LinkedIn"
+    url = "https://www.linkedin.com/in/sahibgill-cyber"
+  [[params.socialIcons]]
+    name = "email"
+    title = "Email me"
+    url = "mailto:sahibg3281@gmail.com"
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+  [params.assets]
+    disableHLJS = false
+    favicon = "/favicon.svg"
+
+[markup]
+  [markup.highlight]
+    noClasses = false
+    codeFences = true
+    guessSyntax = true
+    lineNos = false
+    style = "dracula"
+  [markup.goldmark.renderer]
+    unsafe = true
