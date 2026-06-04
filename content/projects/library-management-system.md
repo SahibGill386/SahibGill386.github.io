@@ -1,27 +1,23 @@
 ---
-title: "Library Management System"
-date: 2024-12-10
-weight: 6
-summary: "A Java/JavaFX desktop application built on a clean 5-layer MVC architecture with FXML, event-driven controllers, and File I/O serialization."
-tags: ["Java", "JavaFX", "MVC", "Software"]
+title: "Java Semester Application: Library Management System"
+date: 2026-05-20
+weight: 3
+summary: "A comprehensive academic semester project demonstrating object-oriented programming, software architecture, and version control."
+tags: ["Java", "OOP", "Software Architecture", "Academic"]
 ShowToc: true
 ---
 
-> **TL;DR** — A full desktop CRUD application showcasing software-engineering fundamentals: layered architecture, a real GUI, and persistence.
+> **TL;DR** — A full-scale Java application focused on modularity, inheritance, and robust file handling for system management.
 
-🔗 **Repo:** [github.com/SahibGill386](https://github.com/SahibGill386)
+🔗 **Repo:** [://github.com](https://://github.com)
 
-## Overview
+## The Problem
+Academic software solutions often fall short when it comes to true modularity and object-oriented principles. This project was built to implement clean separation of concerns, strict input validation, and stable state persistence.
 
-A complete library management desktop app written solo in **Java / JavaFX**, built to demonstrate clean architecture rather than just "make it work."
+## How it Works
+- **Object-Oriented Design:** Deeply utilizes encapsulation, polymorphism, and inheritance.
+- **Data Persistence:** Implements localized file handling mechanisms to preserve application states between runtime sessions.
+- **Robust Exception Frameworks:** Prevents application crashes due to unexpected user inputs through granular try-catch structures.
 
-## Architecture
-
-- **5-layer MVC** separation for maintainability
-- **FXML** layouts designed in **Scene Builder**
-- **Event-driven controllers** handling user interaction
-- **File I/O serialization** for persistence
-
-## What it demonstrates
-
-Strong general software-engineering skills — architecture, GUI development, and data persistence — the foundation that makes the security tooling possible.
+## Stack
+`Java` · `Object-Oriented Programming` · `Data Persistence`
