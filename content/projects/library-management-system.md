@@ -9,7 +9,7 @@ ShowToc: true
 
 > **TL;DR** — A full-scale Java application focused on modularity, inheritance, and robust file handling for system management.
 
-🔗 **Repo:** [://github.com](https://://github.com)
+🔗 **Repo:** [github.com/SahibGill386/Java-Semester-Application](https://://github.com)
 
 ## The Problem
 Academic software solutions often fall short when it comes to true modularity and object-oriented principles. This project was built to implement clean separation of concerns, strict input validation, and stable state persistence.

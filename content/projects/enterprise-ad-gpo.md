@@ -9,7 +9,7 @@ ShowToc: true
 
 > **TL;DR** — Deployed and audited a complete Windows Server Active Directory infrastructure implementing robust AGDLP identity design.
 
-🔗 **Repo:** [://github.com](https://://github.com)
+🔗 **Repo:** [github.com/SahibGill386/Enterprise-AD-Access-Control-GPO](https://://github.com)
 
 ## The Problem
 Default enterprise system configurations lack proper privilege controls, making them highly susceptible to horizontal credential theft or privilege escalation attacks.
